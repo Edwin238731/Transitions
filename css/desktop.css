@@ -8,7 +8,6 @@
 max-width: 1200px;
 margin: auto;
 text-align: center;
-border: 1px red solid;
 }
 body {
 font-family: verdana;
@@ -51,6 +50,14 @@ line-height: 24px;
 }
 .minum{
     font-size:xx-small ;
+}
+.fino{
+    font-size: 10px;
+    font-weight: 200;
+}
+.mediano{
+    font-size: 15;
+    font-size: medium;
 }
 /* +++++++++++++++   Primera seccion    ++++++++++++++++++*/
 .portafolio{
@@ -100,14 +107,26 @@ line-height: 24px;
     left: 0;
     z-index: 10;
 }
+/* .objeto_cubierta p{
+    font-size: 10px;
+} */
 .fila_objeto:hover .objeto_cubierta{
     top: 0;
 }
 .icono{
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     background-color: red;
     border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.icono i {
+    color: white;
+    text-align: center;
+    font-size: 12px;
 }
 /* +++++++++++++++   segunda seccion  +++++++++++++++++++ */
 .ourteam{
@@ -171,9 +190,15 @@ line-height: 24px;
     width: 100%;
     height: 50px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    gap: 15px;
     justify-content: center;
     align-items: center;
+    color: #636363;
+}
+.empleado_redes i{
+    width: 25px;
+    height: 25px;
 }
 /* +++++++++    secion 3       +++++++++++++++++++ */
 .price{
